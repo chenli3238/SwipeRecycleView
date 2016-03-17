@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.zhangyipeng.swipelibrary.SwipeListView2
+        android:id="@+id/swipeListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        swipe:onlyOneOpenedWhenSwipe="true"
+        swipe:swipeActionLeft="reveal"
+        swipe:swipeActionRight="reveal"
+        swipe:swipeAnimationTime="100"
+        swipe:swipeBackView="@+id/back"
+        swipe:swipeCloseAllItemsWhenMoveList="true"
+        swipe:swipeFrontView="@+id/front"
+        swipe:swipeMode="both"
+        swipe:swipeOffsetLeft="200dp"
+        swipe:swipeOffsetRight="200dp"
+        swipe:swipeOpenOnLongPress="false" />
+
+
+</LinearLayout>
