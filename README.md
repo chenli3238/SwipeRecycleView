@@ -1,3 +1,3 @@
 ### SwipeRecycleView
 
-!   [SwipeRecycleView](./SwipeRecycleView.gif)
+!git[SwipeRecycleView](./SwipeRecycleView.gif)
